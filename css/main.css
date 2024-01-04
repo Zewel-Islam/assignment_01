@@ -1,23 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Roboto&display=swap");
 
-*,
+/* *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 body {
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #bbb;;
 }
+
+a {
+  color: #333;
+}
+
 .navbar {
-      background-color: #333;
-      overflow: hidden;
-      display: flex;
-      justify-content: space-between;
-      padding: 15px;
-    }
-.logo img {
-    max-width: 100%;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+.navbar ul a {
+display: block;
+padding: 20px;
+outline: 1px solid red;
+text-decoration: none;
+}
+.navbar .logo {
+  padding: 10px 20px;
 }
